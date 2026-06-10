@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Popup Example</title>
+</head>
+<body onload="showPopup()">
+
+    <h1>Welcome</h1>
+
+    <script>
+        function showPopup() {
+            alert("You are hacked");
+        }
+    </script>
+
+</body>
+</html>
