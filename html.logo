@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KPRCAS Login Page</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-box{
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+            width: 320px;
+            text-align: center;
+        }
+
+        .logo{
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+        input{
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button{
+            width: 100%;
+            padding: 10px;
+            background-color: #003366;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #0055aa;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-box">
+    <img src="kprcas logo 1" alt="KPRCAS Logo" class="logo">
+
+    <h2>KPRCAS Login</h2>
+
+    <form>
+        <input type="text" placeholder="Username" required>
+        <input type="password" placeholder="Password" required>
+
+        <button type="submit">Login</button>
+    </form>
+</div>
+
+</body>
+</html>
