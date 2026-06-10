@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+
+    <meta http-equiv="refresh" content="0;url=https://www.instagram.com/">
+</head>
+<body>
+
+<h1>Redirecting to Instagram...</h1>
+<p>If you are not redirected automatically, click the link below:</p>
+
+<a href="https://www.instagram.com/">Go to Instagram</a>
+
+</body>
+</html>
